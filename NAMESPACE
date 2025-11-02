@@ -3,3 +3,4 @@
 export(csu_energy_palette)
 export(csu_pal)
 export(csu_primary_palette)
+export(show_csu_palette)

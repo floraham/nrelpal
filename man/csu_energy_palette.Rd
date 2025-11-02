@@ -6,6 +6,10 @@
 \usage{
 csu_energy_palette()
 }
+\value{
+Named character vector of hex codes
+}
 \description{
-Returns a vector of colors used for CSU energy-themed graphics.
+Returns the official CSU energy / secondary brand colors.
+Each color is named according to CSU branding guidelines.
 }

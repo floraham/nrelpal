@@ -6,6 +6,10 @@
 \usage{
 csu_primary_palette()
 }
+\value{
+Named character vector of hex codes
+}
 \description{
-Returns a vector of primary CSU/NREL lab colors.
+Returns the official CSU primary brand colors.
+Each color is named according to CSU branding guidelines.
 }

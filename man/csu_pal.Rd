@@ -2,20 +2,20 @@
 % Please edit documentation in R/palette.R
 \name{csu_pal}
 \alias{csu_pal}
-\title{CSU Palettes}
+\title{Get Colors from a CSU Palette}
 \usage{
 csu_pal(palette = c("primary", "energy"), n = NULL)
 }
 \arguments{
-\item{palette}{Which palette to use: "primary" or "energy".}
+\item{palette}{Character: "primary" or "energy"}
 
-\item{n}{Number of colors to return. If \code{NULL}, returns all colors in the palette.}
+\item{n}{Number of colors to return. If NULL, returns all colors in the palette.}
 }
 \value{
-A vector of hex color codes.
+Character vector of hex codes
 }
 \description{
-Access and interpolate CSU color palettes.
+Interpolate colors from a CSU palette.
 }
 \examples{
 csu_pal("primary")
